@@ -10,7 +10,7 @@ import androidx.compose.material.icons.rounded.Air
 import androidx.compose.material.icons.rounded.Grain
 import androidx.compose.material.icons.rounded.Healing
 import androidx.compose.material.icons.rounded.MedicalServices
-import androidx.compose.material.icons.rounded.MedicationLiquid
+import androidx.compose.material.icons.rounded.LocalDrink
 import androidx.compose.material.icons.rounded.Sanitizer
 import androidx.compose.material.icons.rounded.Spa
 import androidx.compose.material.icons.rounded.Vaccines
@@ -35,7 +35,7 @@ import com.mediminder.app.ui.theme.medicineColor
 
 fun formIcon(form: MedicineForm): ImageVector? = when (form) {
     MedicineForm.TABLET, MedicineForm.CAPSULE -> null // drawn by hand below
-    MedicineForm.SYRUP -> Icons.Rounded.MedicationLiquid
+    MedicineForm.SYRUP -> Icons.Rounded.LocalDrink
     MedicineForm.INJECTION -> Icons.Rounded.Vaccines
     MedicineForm.DROPS -> Icons.Rounded.WaterDrop
     MedicineForm.INHALER -> Icons.Rounded.Air
