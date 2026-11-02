@@ -33,7 +33,7 @@ import androidx.compose.material.icons.rounded.Nightlight
 import androidx.compose.material.icons.rounded.Schedule
 import androidx.compose.material.icons.rounded.SkipNext
 import androidx.compose.material.icons.rounded.Snooze
-import androidx.compose.material.icons.rounded.Undo
+import androidx.compose.material.icons.automirrored.rounded.Undo
 import androidx.compose.material.icons.rounded.WarningAmber
 import androidx.compose.material.icons.rounded.WbSunny
 import androidx.compose.material.icons.rounded.WbTwilight
@@ -559,7 +559,7 @@ private fun PrnCard(
                 )
             }
             if (prn.logs.isNotEmpty()) {
-                IconButton(onClick = onUndoLast) { Icon(Icons.Rounded.Undo, stringResource(R.string.action_undo)) }
+                IconButton(onClick = onUndoLast) { Icon(Icons.AutoMirrored.Rounded.Undo, stringResource(R.string.action_undo)) }
             }
             if (isToday) {
                 FilledTonalButton(onClick = onTake) { Text(stringResource(R.string.action_log_dose)) }
@@ -655,7 +655,7 @@ private fun DoseSheetContent(
                     .fillMaxWidth()
                     .height(52.dp),
             ) {
-                Icon(Icons.Rounded.Undo, null)
+                Icon(Icons.AutoMirrored.Rounded.Undo, null)
                 Spacer(Modifier.width(8.dp))
                 Text(stringResource(R.string.action_undo))
             }

@@ -15,7 +15,7 @@ import androidx.compose.material.icons.rounded.Sanitizer
 import androidx.compose.material.icons.rounded.Spa
 import androidx.compose.material.icons.rounded.Vaccines
 import androidx.compose.material.icons.rounded.WaterDrop
-import androidx.compose.material.icons.rounded.Egg
+import androidx.compose.material.icons.rounded.LocalPharmacy
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -43,7 +43,7 @@ fun formIcon(form: MedicineForm): ImageVector? = when (form) {
     MedicineForm.SPRAY -> Icons.Rounded.Sanitizer
     MedicineForm.PATCH -> Icons.Rounded.Healing
     MedicineForm.POWDER -> Icons.Rounded.Grain
-    MedicineForm.SUPPOSITORY -> Icons.Rounded.Egg
+    MedicineForm.SUPPOSITORY -> Icons.Rounded.LocalPharmacy
     MedicineForm.OTHER -> Icons.Rounded.MedicalServices
 }
 

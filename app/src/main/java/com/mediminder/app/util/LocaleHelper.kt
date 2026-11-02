@@ -21,7 +21,7 @@ object LocaleHelper {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             val lm = context.getSystemService(LocaleManager::class.java)
             val tag = lm?.applicationLocales?.takeIf { !it.isEmpty }?.get(0)?.language
-            return if (tag in supported) tag!! else "en"
+            return if (tag != null && tag in supported) tag else "en"
         }
         return context.container.settings.current.language
     }
