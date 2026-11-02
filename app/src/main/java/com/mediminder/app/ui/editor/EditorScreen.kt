@@ -430,7 +430,7 @@ fun EditorScreen(medicineId: Long, onClose: () -> Unit) {
                         val selected = s.color == i
                         Box(
                             Modifier
-                                .size(32.dp)
+                                .size(28.dp)
                                 .background(medicineColor(i), CircleShape)
                                 .then(
                                     if (selected) {
@@ -442,7 +442,7 @@ fun EditorScreen(medicineId: Long, onClose: () -> Unit) {
                                 .clickable { vm.edit { it.copy(color = i) } },
                             contentAlignment = Alignment.Center,
                         ) {
-                            if (selected) Icon(Icons.Rounded.Check, null, Modifier.size(18.dp), tint = Color.White)
+                            if (selected) Icon(Icons.Rounded.Check, null, Modifier.size(16.dp), tint = Color.White)
                         }
                     }
                 }

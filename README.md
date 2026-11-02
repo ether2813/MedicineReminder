@@ -1,6 +1,6 @@
 # MediMinder – Medicine Reminder for Android
 
-A simple, minimal and beautiful medicine reminder app built with Kotlin and Jetpack Compose (Material 3).
+A simple, minimal and beautiful sky-blue themed medicine reminder app built with Kotlin and Jetpack Compose (Material 3).
 Everything stays on your device – there is no account and no internet access.
 
 ## Features

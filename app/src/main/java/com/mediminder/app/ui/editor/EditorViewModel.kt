@@ -14,6 +14,7 @@ import com.mediminder.app.data.model.MedicineForm
 import com.mediminder.app.data.model.ScheduleType
 import com.mediminder.app.domain.Schedule
 import com.mediminder.app.reminder.ReminderScheduler
+import com.mediminder.app.ui.theme.MedicineColors
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -84,7 +85,7 @@ fun formatPlain(value: Double): String =
 
 class EditorViewModel(private val app: MediApp, private val medicineId: Long) : ViewModel() {
     private val repo = app.container.repository
-    private val _state = MutableStateFlow(EditorState(color = (0..8).random()))
+    private val _state = MutableStateFlow(EditorState(color = MedicineColors.indices.random()))
     val state: StateFlow<EditorState> = _state.asStateFlow()
 
     init {

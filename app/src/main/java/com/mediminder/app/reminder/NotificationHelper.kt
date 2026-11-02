@@ -204,7 +204,7 @@ object NotificationHelper {
         )
         val notification = NotificationCompat.Builder(context, CHANNEL_REFILL)
             .setSmallIcon(R.drawable.ic_notification)
-            .setColor("#0F766E".toColorInt())
+            .setColor("#0284C7".toColorInt())
             .setContentTitle(context.getString(R.string.notif_refill_title, medicine.name))
             .setContentText(context.getString(R.string.notif_refill_text, left))
             .setContentIntent(contentIntent)

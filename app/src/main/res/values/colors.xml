@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="brand">#0F766E</color>
-    <color name="brand_dark">#0B4F4A</color>
-    <color name="ic_launcher_background">#0F766E</color>
-    <color name="window_background">#F6FAF9</color>
-    <color name="splash_background">#0F766E</color>
+    <color name="brand">#0284C7</color>
+    <color name="brand_dark">#075985</color>
+    <color name="ic_launcher_background">#0284C7</color>
+    <color name="window_background">#F6FAFE</color>
+    <color name="splash_background">#0284C7</color>
 </resources>
