@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MediMinder</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_medicines">Medicines</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+    <string name="allow">Allow</string>
+    <string name="off">Off</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="percent">%1$s%%</string>
+
+    <!-- Today -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_night">Good night</string>
+    <string name="add_medicine">Add medicine</string>
+    <string name="add_first_medicine">Add your first medicine</string>
+    <string name="edit_medicine">Edit medicine</string>
+    <string name="doses_taken_of">%1$s of %2$s taken</string>
+    <string name="all_done">All done for today. Great job!</string>
+    <string name="next_dose">Next: %1$s at %2$s</string>
+    <string name="missed_count">%1$s missed today</string>
+    <string name="keep_going">Keep it up!</string>
+    <string name="period_morning">Morning</string>
+    <string name="period_afternoon">Afternoon</string>
+    <string name="period_evening">Evening</string>
+    <string name="period_night">Night</string>
+    <string name="as_needed_section">As needed</string>
+    <string name="prn_not_taken">Not taken today</string>
+    <string name="prn_taken_times">Taken %1$s× · last at %2$s</string>
+    <string name="empty_medicines_title">No medicines yet</string>
+    <string name="empty_medicines_text">Add a medicine and MediMinder will remind you when it\'s time to take it.</string>
+    <string name="empty_day_title">Nothing scheduled</string>
+    <string name="empty_day_text">There are no doses planned for this day.</string>
+    <string name="taken_at">Taken at %1$s</string>
+    <string name="skipped_at">Skipped at %1$s</string>
+    <string name="view_medicine_details">View medicine details</string>
+
+    <!-- Statuses -->
+    <string name="status_taken">Taken</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_missed">Missed</string>
+    <string name="status_due">Due now</string>
+    <string name="status_upcoming">Upcoming</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_active">Active</string>
+    <string name="status_allowed">Allowed</string>
+    <string name="status_not_allowed">Not allowed – tap to fix</string>
+
+    <!-- Actions -->
+    <string name="action_take">Take</string>
+    <string name="action_mark_taken">Mark as taken</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_snooze_minutes">Snooze %1$d min</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_log_dose">Log dose</string>
+
+    <!-- Banners -->
+    <string name="banner_notifications_title">Notifications are off</string>
+    <string name="banner_notifications_text">Allow notifications so you never miss a dose.</string>
+    <string name="banner_exact_title">Allow on-time reminders</string>
+    <string name="banner_exact_text">Without this permission reminders may arrive late.</string>
+
+    <!-- Medicines -->
+    <string name="search_medicines">Search medicines</string>
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_inactive">Paused / done</string>
+    <string name="filter_low_stock">Low stock</string>
+    <string name="no_results">No matches</string>
+    <string name="no_results_text">Try a different search or filter.</string>
+    <string name="stock_left">%1$s left</string>
+
+    <!-- Forms -->
+    <string name="form_tablet">Tablet</string>
+    <string name="form_capsule">Capsule</string>
+    <string name="form_syrup">Syrup</string>
+    <string name="form_injection">Injection</string>
+    <string name="form_drops">Drops</string>
+    <string name="form_inhaler">Inhaler</string>
+    <string name="form_cream">Cream</string>
+    <string name="form_spray">Spray</string>
+    <string name="form_patch">Patch</string>
+    <string name="form_powder">Powder</string>
+    <string name="form_suppository">Suppository</string>
+    <string name="form_other">Other</string>
+
+    <!-- Instructions -->
+    <string name="instr_none">No instruction</string>
+    <string name="instr_before_meal">Before meal</string>
+    <string name="instr_after_meal">After meal</string>
+    <string name="instr_with_meal">With meal</string>
+    <string name="instr_empty_stomach">Empty stomach</string>
+    <string name="instr_bedtime">At bedtime</string>
+
+    <!-- Schedule -->
+    <string name="schedule_daily">Every day</string>
+    <string name="schedule_specific_days">Specific days</string>
+    <string name="schedule_every_x_days">Every few days</string>
+    <string name="schedule_every_x_hours">Every few hours</string>
+    <string name="schedule_as_needed">As needed</string>
+    <string name="freq_every_day">Every day</string>
+    <string name="interval_hours">Repeat every</string>
+    <string name="as_needed_hint">No reminders. Log a dose from the Today screen whenever you take it.</string>
+    <string name="reminder_times">Reminder times</string>
+    <string name="first_dose_and_times">First dose (other times follow automatically)</string>
+    <string name="add_time">Add time</string>
+    <string name="preset_morning">Morning %1$s</string>
+    <string name="preset_noon">Noon %1$s</string>
+    <string name="preset_evening">Evening %1$s</string>
+    <string name="preset_night">Night %1$s</string>
+
+    <!-- Editor -->
+    <string name="section_medicine">Medicine</string>
+    <string name="section_schedule">Schedule</string>
+    <string name="section_instructions">Instructions</string>
+    <string name="section_duration">Duration</string>
+    <string name="section_stock">Stock</string>
+    <string name="section_reminder_style">Reminder style</string>
+    <string name="section_color">Colour</string>
+    <string name="section_notes">Doctor &amp; notes</string>
+    <string name="field_name">Medicine name</string>
+    <string name="field_name_hint">e.g. Paracetamol</string>
+    <string name="field_form">Type</string>
+    <string name="field_strength">Strength</string>
+    <string name="field_strength_hint">e.g. 500 mg</string>
+    <string name="field_unit">Dose unit</string>
+    <string name="field_dose">Dose</string>
+    <string name="field_doctor">Prescribed by</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_notes_hint">e.g. Shake well before use</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="end_never">Ongoing</string>
+    <string name="end_on_date">Until date</string>
+    <string name="end_after_days">For days</string>
+    <string name="duration_days">Number of days</string>
+    <string name="track_stock">Track stock</string>
+    <string name="track_stock_hint">Count down as you take doses and get refill reminders</string>
+    <string name="current_stock">In stock</string>
+    <string name="refill_at">Remind at</string>
+    <string name="style_notification">Notification</string>
+    <string name="style_notification_desc">A gentle reminder with sound</string>
+    <string name="style_alarm">Alarm</string>
+    <string name="style_alarm_desc">Rings full screen until you respond</string>
+    <string name="save_medicine">Save medicine</string>
+    <string name="error_name">Please enter a name</string>
+    <string name="error_days">Choose at least one day</string>
+    <string name="error_times">Add at least one reminder time</string>
+    <string name="error_end_date">The end must be after the start</string>
+
+    <!-- Detail -->
+    <string name="pause_reminders">Pause reminders</string>
+    <string name="resume_reminders">Resume reminders</string>
+    <string name="medicine_not_found">This medicine no longer exists.</string>
+    <string name="date_range">%1$s – %2$s</string>
+    <string name="from_date_ongoing">From %1$s, ongoing</string>
+    <string name="low_stock_warning">Running low – time to refill</string>
+    <string name="refill">Refill</string>
+    <string name="refill_amount">Amount added</string>
+    <string name="adherence_30_days">Adherence · last 30 days</string>
+    <string name="count_taken">%1$s taken</string>
+    <string name="count_skipped">%1$s skipped</string>
+    <string name="count_missed">%1$s missed</string>
+    <string name="recent_history">Recent history</string>
+    <string name="delete_medicine_title">Delete medicine?</string>
+    <string name="delete_medicine_text">%1$s and its history will be removed permanently.</string>
+
+    <!-- History -->
+    <string name="last_7_days">Last 7 days</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="streak">Perfect streak</string>
+    <string name="this_week">Last 7 days at a glance</string>
+    <string name="empty_history_title">No history yet</string>
+    <string name="empty_history_text">Doses you take, skip or miss will show up here.</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance &amp; language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Dynamic colours</string>
+    <string name="settings_dynamic_color_desc">Use colours from your wallpaper</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_bengali">বাংলা (Bengali)</string>
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_snooze">Snooze duration</string>
+    <string name="settings_repeat">Repeat if not answered</string>
+    <string name="settings_repeat_value">Every %1$s</string>
+    <string name="settings_repeat_count">Maximum repeats</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_exact_alarms">Exact alarms</string>
+    <string name="settings_full_screen">Full-screen alarms</string>
+    <string name="settings_battery">Battery optimisation</string>
+    <string name="settings_battery_desc">May delay reminders – tap to exclude MediMinder</string>
+    <string name="settings_battery_ok">Not restricted</string>
+    <string name="settings_data">Backup &amp; data</string>
+    <string name="settings_export">Export backup</string>
+    <string name="settings_export_desc">Save medicines, history and settings to a file</string>
+    <string name="settings_import">Import backup</string>
+    <string name="settings_import_desc">Restore from a MediMinder backup file</string>
+    <string name="settings_export_csv">Export history (CSV)</string>
+    <string name="settings_export_csv_desc">Open your dose history in a spreadsheet</string>
+    <string name="settings_delete_all">Delete all data</string>
+    <string name="settings_delete_all_desc">Remove every medicine and all history</string>
+    <string name="delete_all_confirm">This removes all medicines and history from this device. Consider exporting a backup first.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="disclaimer">MediMinder helps you remember your medicines. It does not replace advice from your doctor or pharmacist. All data stays on your device.</string>
+    <string name="import_title">Import backup</string>
+    <string name="import_text">Replace everything on this device with the backup, or merge the backup into your current data?</string>
+    <string name="import_replace">Replace</string>
+    <string name="import_merge">Merge</string>
+    <string name="msg_exported">Backup saved (%1$d medicines)</string>
+    <string name="msg_imported">Imported %1$d medicines</string>
+    <string name="msg_csv_exported">Exported %1$d history entries</string>
+    <string name="msg_failed">Something went wrong. Please check the file and try again.</string>
+    <string name="msg_deleted">All data deleted</string>
+
+    <!-- CSV -->
+    <string name="csv_date">Date</string>
+    <string name="csv_time">Time</string>
+    <string name="csv_medicine">Medicine</string>
+    <string name="csv_strength">Strength</string>
+    <string name="csv_dose">Dose</string>
+    <string name="csv_unit">Unit</string>
+    <string name="csv_status">Status</string>
+    <string name="csv_action_time">Recorded at</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">Medicine reminders</string>
+    <string name="channel_reminders_desc">Reminders to take your medicines</string>
+    <string name="channel_alarms">Medicine alarms</string>
+    <string name="channel_alarms_desc">Loud, full-screen alarms for important medicines</string>
+    <string name="channel_refill">Refill reminders</string>
+    <string name="channel_refill_desc">Alerts when a medicine is running low</string>
+    <string name="notif_dose_title">Time for %1$s</string>
+    <string name="notif_refill_title">%1$s is running low</string>
+    <string name="notif_refill_text">Only %1$s left. Time to refill.</string>
+    <string name="alarm_time_for_medicine">Time for your medicine</string>
+
+    <!-- Plurals -->
+    <plurals name="unit_tablet"><item quantity="one">%1$s tablet</item><item quantity="other">%1$s tablets</item></plurals>
+    <plurals name="unit_capsule"><item quantity="one">%1$s capsule</item><item quantity="other">%1$s capsules</item></plurals>
+    <plurals name="unit_ml"><item quantity="one">%1$s ml</item><item quantity="other">%1$s ml</item></plurals>
+    <plurals name="unit_teaspoon"><item quantity="one">%1$s teaspoon</item><item quantity="other">%1$s teaspoons</item></plurals>
+    <plurals name="unit_tablespoon"><item quantity="one">%1$s tablespoon</item><item quantity="other">%1$s tablespoons</item></plurals>
+    <plurals name="unit_drop"><item quantity="one">%1$s drop</item><item quantity="other">%1$s drops</item></plurals>
+    <plurals name="unit_puff"><item quantity="one">%1$s puff</item><item quantity="other">%1$s puffs</item></plurals>
+    <plurals name="unit_spray"><item quantity="one">%1$s spray</item><item quantity="other">%1$s sprays</item></plurals>
+    <plurals name="unit_unit"><item quantity="one">%1$s unit</item><item quantity="other">%1$s units</item></plurals>
+    <plurals name="unit_mg"><item quantity="one">%1$s mg</item><item quantity="other">%1$s mg</item></plurals>
+    <plurals name="unit_g"><item quantity="one">%1$s g</item><item quantity="other">%1$s g</item></plurals>
+    <plurals name="unit_mcg"><item quantity="one">%1$s mcg</item><item quantity="other">%1$s mcg</item></plurals>
+    <plurals name="unit_patch"><item quantity="one">%1$s patch</item><item quantity="other">%1$s patches</item></plurals>
+    <plurals name="unit_sachet"><item quantity="one">%1$s sachet</item><item quantity="other">%1$s sachets</item></plurals>
+    <plurals name="unit_application"><item quantity="one">%1$s application</item><item quantity="other">%1$s applications</item></plurals>
+    <plurals name="unit_piece"><item quantity="one">%1$s piece</item><item quantity="other">%1$s pieces</item></plurals>
+
+    <plurals name="freq_every_n_days"><item quantity="one">Every day</item><item quantity="other">Every %1$s days</item></plurals>
+    <plurals name="freq_every_n_hours"><item quantity="one">Every hour</item><item quantity="other">Every %1$s hours</item></plurals>
+    <plurals name="hours_short"><item quantity="one">%1$s hour</item><item quantity="other">%1$s hours</item></plurals>
+    <plurals name="minutes"><item quantity="one">%1$s minute</item><item quantity="other">%1$s minutes</item></plurals>
+    <plurals name="times_count"><item quantity="one">%1$s time</item><item quantity="other">%1$s times</item></plurals>
+    <plurals name="days_count"><item quantity="one">%1$s day</item><item quantity="other">%1$s days</item></plurals>
+    <plurals name="days_left"><item quantity="one">About %1$s day left</item><item quantity="other">About %1$s days left</item></plurals>
+    <plurals name="medicine_count"><item quantity="one">%1$s medicine</item><item quantity="other">%1$s medicines</item></plurals>
+</resources>

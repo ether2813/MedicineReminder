@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_today">আজ</string>
+    <string name="nav_medicines">ওষুধ</string>
+    <string name="nav_history">ইতিহাস</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Common -->
+    <string name="ok">ঠিক আছে</string>
+    <string name="cancel">বাতিল</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="add">যোগ করুন</string>
+    <string name="edit">সম্পাদনা</string>
+    <string name="delete">মুছুন</string>
+    <string name="remove">সরান</string>
+    <string name="back">পেছনে</string>
+    <string name="clear">মুছে ফেলুন</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="off">বন্ধ</string>
+    <string name="today">আজ</string>
+    <string name="yesterday">গতকাল</string>
+    <string name="tomorrow">আগামীকাল</string>
+    <string name="pick_date">তারিখ বাছুন</string>
+    <string name="percent">%1$s%%</string>
+
+    <!-- Today -->
+    <string name="greeting_morning">শুভ সকাল</string>
+    <string name="greeting_afternoon">শুভ অপরাহ্ন</string>
+    <string name="greeting_evening">শুভ সন্ধ্যা</string>
+    <string name="greeting_night">শুভ রাত্রি</string>
+    <string name="add_medicine">ওষুধ যোগ করুন</string>
+    <string name="add_first_medicine">প্রথম ওষুধ যোগ করুন</string>
+    <string name="edit_medicine">ওষুধ সম্পাদনা</string>
+    <string name="doses_taken_of">%2$s-এর মধ্যে %1$s টি খাওয়া হয়েছে</string>
+    <string name="all_done">আজকের সব ওষুধ খাওয়া শেষ। দারুণ!</string>
+    <string name="next_dose">পরবর্তী: %1$s, %2$s-এ</string>
+    <string name="missed_count">আজ %1$s টি বাদ পড়েছে</string>
+    <string name="keep_going">এভাবেই চালিয়ে যান!</string>
+    <string name="period_morning">সকাল</string>
+    <string name="period_afternoon">দুপুর</string>
+    <string name="period_evening">সন্ধ্যা</string>
+    <string name="period_night">রাত</string>
+    <string name="as_needed_section">প্রয়োজন অনুযায়ী</string>
+    <string name="prn_not_taken">আজ খাওয়া হয়নি</string>
+    <string name="prn_taken_times">%1$s বার খাওয়া হয়েছে · সর্বশেষ %2$s</string>
+    <string name="empty_medicines_title">এখনো কোনো ওষুধ নেই</string>
+    <string name="empty_medicines_text">একটি ওষুধ যোগ করুন, খাওয়ার সময় হলে MediMinder আপনাকে মনে করিয়ে দেবে।</string>
+    <string name="empty_day_title">কিছু নির্ধারিত নেই</string>
+    <string name="empty_day_text">এই দিনে কোনো ডোজ নির্ধারিত নেই।</string>
+    <string name="taken_at">%1$s-এ খাওয়া হয়েছে</string>
+    <string name="skipped_at">%1$s-এ বাদ দেওয়া হয়েছে</string>
+    <string name="view_medicine_details">ওষুধের বিস্তারিত দেখুন</string>
+
+    <!-- Statuses -->
+    <string name="status_taken">খাওয়া হয়েছে</string>
+    <string name="status_skipped">বাদ দেওয়া</string>
+    <string name="status_missed">বাদ পড়েছে</string>
+    <string name="status_due">এখন খাওয়ার সময়</string>
+    <string name="status_upcoming">আসন্ন</string>
+    <string name="status_paused">স্থগিত</string>
+    <string name="status_completed">সম্পন্ন</string>
+    <string name="status_active">চালু</string>
+    <string name="status_allowed">অনুমোদিত</string>
+    <string name="status_not_allowed">অনুমতি নেই – ঠিক করতে ট্যাপ করুন</string>
+
+    <!-- Actions -->
+    <string name="action_take">খেয়েছি</string>
+    <string name="action_mark_taken">খাওয়া হয়েছে চিহ্নিত করুন</string>
+    <string name="action_skip">বাদ দিন</string>
+    <string name="action_snooze_minutes">%1$d মিনিট পরে</string>
+    <string name="action_undo">পূর্বাবস্থায় ফেরান</string>
+    <string name="action_log_dose">ডোজ লিখুন</string>
+
+    <!-- Banners -->
+    <string name="banner_notifications_title">নোটিফিকেশন বন্ধ আছে</string>
+    <string name="banner_notifications_text">কোনো ডোজ যেন বাদ না পড়ে, তাই নোটিফিকেশনের অনুমতি দিন।</string>
+    <string name="banner_exact_title">সময়মতো রিমাইন্ডারের অনুমতি দিন</string>
+    <string name="banner_exact_text">এই অনুমতি ছাড়া রিমাইন্ডার দেরিতে আসতে পারে।</string>
+
+    <!-- Medicines -->
+    <string name="search_medicines">ওষুধ খুঁজুন</string>
+    <string name="filter_all">সব</string>
+    <string name="filter_active">চালু</string>
+    <string name="filter_inactive">স্থগিত / শেষ</string>
+    <string name="filter_low_stock">মজুত কম</string>
+    <string name="no_results">কিছু পাওয়া যায়নি</string>
+    <string name="no_results_text">অন্য কিছু লিখে বা ফিল্টার বদলে চেষ্টা করুন।</string>
+    <string name="stock_left">%1$s বাকি</string>
+
+    <!-- Forms -->
+    <string name="form_tablet">ট্যাবলেট</string>
+    <string name="form_capsule">ক্যাপসুল</string>
+    <string name="form_syrup">সিরাপ</string>
+    <string name="form_injection">ইনজেকশন</string>
+    <string name="form_drops">ড্রপ</string>
+    <string name="form_inhaler">ইনহেলার</string>
+    <string name="form_cream">ক্রিম</string>
+    <string name="form_spray">স্প্রে</string>
+    <string name="form_patch">প্যাচ</string>
+    <string name="form_powder">পাউডার</string>
+    <string name="form_suppository">সাপোজিটরি</string>
+    <string name="form_other">অন্যান্য</string>
+
+    <!-- Instructions -->
+    <string name="instr_none">কোনো নির্দেশনা নেই</string>
+    <string name="instr_before_meal">খাবারের আগে</string>
+    <string name="instr_after_meal">খাবারের পরে</string>
+    <string name="instr_with_meal">খাবারের সাথে</string>
+    <string name="instr_empty_stomach">খালি পেটে</string>
+    <string name="instr_bedtime">ঘুমানোর আগে</string>
+
+    <!-- Schedule -->
+    <string name="schedule_daily">প্রতিদিন</string>
+    <string name="schedule_specific_days">নির্দিষ্ট দিনে</string>
+    <string name="schedule_every_x_days">কয়েক দিন পরপর</string>
+    <string name="schedule_every_x_hours">কয়েক ঘণ্টা পরপর</string>
+    <string name="schedule_as_needed">প্রয়োজন অনুযায়ী</string>
+    <string name="freq_every_day">প্রতিদিন</string>
+    <string name="interval_hours">কত ঘণ্টা পরপর</string>
+    <string name="as_needed_hint">কোনো রিমাইন্ডার নেই। যখনই খাবেন, \"আজ\" স্ক্রিন থেকে ডোজ লিখে রাখুন।</string>
+    <string name="reminder_times">রিমাইন্ডারের সময়</string>
+    <string name="first_dose_and_times">প্রথম ডোজ (বাকি সময়গুলো স্বয়ংক্রিয়ভাবে ঠিক হবে)</string>
+    <string name="add_time">সময় যোগ করুন</string>
+    <string name="preset_morning">সকাল %1$s</string>
+    <string name="preset_noon">দুপুর %1$s</string>
+    <string name="preset_evening">সন্ধ্যা %1$s</string>
+    <string name="preset_night">রাত %1$s</string>
+
+    <!-- Editor -->
+    <string name="section_medicine">ওষুধ</string>
+    <string name="section_schedule">সময়সূচি</string>
+    <string name="section_instructions">নির্দেশনা</string>
+    <string name="section_duration">মেয়াদ</string>
+    <string name="section_stock">মজুত</string>
+    <string name="section_reminder_style">রিমাইন্ডারের ধরন</string>
+    <string name="section_color">রং</string>
+    <string name="section_notes">ডাক্তার ও নোট</string>
+    <string name="field_name">ওষুধের নাম</string>
+    <string name="field_name_hint">যেমন: প্যারাসিটামল</string>
+    <string name="field_form">ধরন</string>
+    <string name="field_strength">শক্তি</string>
+    <string name="field_strength_hint">যেমন: ৫০০ mg</string>
+    <string name="field_unit">ডোজের একক</string>
+    <string name="field_dose">ডোজ</string>
+    <string name="field_doctor">যিনি প্রেসক্রাইব করেছেন</string>
+    <string name="field_notes">নোট</string>
+    <string name="field_notes_hint">যেমন: ব্যবহারের আগে ভালো করে ঝাঁকিয়ে নিন</string>
+    <string name="start_date">শুরুর তারিখ</string>
+    <string name="end_date">শেষ তারিখ</string>
+    <string name="end_never">চলমান</string>
+    <string name="end_on_date">তারিখ পর্যন্ত</string>
+    <string name="end_after_days">কয়েক দিন</string>
+    <string name="duration_days">দিনের সংখ্যা</string>
+    <string name="track_stock">মজুত হিসাব রাখুন</string>
+    <string name="track_stock_hint">ডোজ খেলে মজুত কমবে এবং ফুরিয়ে এলে মনে করিয়ে দেবে</string>
+    <string name="current_stock">মজুত আছে</string>
+    <string name="refill_at">মনে করাবে</string>
+    <string name="style_notification">নোটিফিকেশন</string>
+    <string name="style_notification_desc">শব্দসহ হালকা রিমাইন্ডার</string>
+    <string name="style_alarm">অ্যালার্ম</string>
+    <string name="style_alarm_desc">সাড়া না দেওয়া পর্যন্ত পুরো স্ক্রিনে বাজবে</string>
+    <string name="save_medicine">ওষুধ সংরক্ষণ করুন</string>
+    <string name="error_name">অনুগ্রহ করে একটি নাম লিখুন</string>
+    <string name="error_days">অন্তত একটি দিন বাছুন</string>
+    <string name="error_times">অন্তত একটি রিমাইন্ডারের সময় যোগ করুন</string>
+    <string name="error_end_date">শেষ তারিখ শুরুর পরে হতে হবে</string>
+
+    <!-- Detail -->
+    <string name="pause_reminders">রিমাইন্ডার স্থগিত করুন</string>
+    <string name="resume_reminders">রিমাইন্ডার আবার চালু করুন</string>
+    <string name="medicine_not_found">এই ওষুধটি আর নেই।</string>
+    <string name="date_range">%1$s – %2$s</string>
+    <string name="from_date_ongoing">%1$s থেকে, চলমান</string>
+    <string name="low_stock_warning">মজুত কমে এসেছে – আবার কেনার সময় হয়েছে</string>
+    <string name="refill">রিফিল</string>
+    <string name="refill_amount">যোগ করা পরিমাণ</string>
+    <string name="adherence_30_days">নিয়মিততা · গত ৩০ দিন</string>
+    <string name="count_taken">%1$s খাওয়া হয়েছে</string>
+    <string name="count_skipped">%1$s বাদ দেওয়া</string>
+    <string name="count_missed">%1$s বাদ পড়েছে</string>
+    <string name="recent_history">সাম্প্রতিক ইতিহাস</string>
+    <string name="delete_medicine_title">ওষুধটি মুছবেন?</string>
+    <string name="delete_medicine_text">%1$s এবং এর ইতিহাস স্থায়ীভাবে মুছে যাবে।</string>
+
+    <!-- History -->
+    <string name="last_7_days">গত ৭ দিন</string>
+    <string name="last_30_days">গত ৩০ দিন</string>
+    <string name="streak">নিখুঁত ধারাবাহিকতা</string>
+    <string name="this_week">এক নজরে গত ৭ দিন</string>
+    <string name="empty_history_title">এখনো কোনো ইতিহাস নেই</string>
+    <string name="empty_history_text">আপনার খাওয়া, বাদ দেওয়া বা বাদ পড়া ডোজগুলো এখানে দেখা যাবে।</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">চেহারা ও ভাষা</string>
+    <string name="settings_theme">থিম</string>
+    <string name="theme_system">সিস্টেম অনুযায়ী</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="settings_dynamic_color">ডায়নামিক রং</string>
+    <string name="settings_dynamic_color_desc">ওয়ালপেপারের রং ব্যবহার করুন</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="language_english">English (ইংরেজি)</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="settings_reminders">রিমাইন্ডার</string>
+    <string name="settings_snooze">স্নুজের সময়</string>
+    <string name="settings_repeat">সাড়া না দিলে আবার মনে করাবে</string>
+    <string name="settings_repeat_value">প্রতি %1$s পরপর</string>
+    <string name="settings_repeat_count">সর্বোচ্চ কতবার</string>
+    <string name="settings_notifications">নোটিফিকেশন</string>
+    <string name="settings_exact_alarms">নির্ভুল অ্যালার্ম</string>
+    <string name="settings_full_screen">পূর্ণ-স্ক্রিন অ্যালার্ম</string>
+    <string name="settings_battery">ব্যাটারি অপ্টিমাইজেশন</string>
+    <string name="settings_battery_desc">রিমাইন্ডার দেরিতে আসতে পারে – MediMinder-কে বাদ দিতে ট্যাপ করুন</string>
+    <string name="settings_battery_ok">সীমাবদ্ধ নয়</string>
+    <string name="settings_data">ব্যাকআপ ও ডেটা</string>
+    <string name="settings_export">ব্যাকআপ এক্সপোর্ট</string>
+    <string name="settings_export_desc">ওষুধ, ইতিহাস ও সেটিংস একটি ফাইলে সংরক্ষণ করুন</string>
+    <string name="settings_import">ব্যাকআপ ইমপোর্ট</string>
+    <string name="settings_import_desc">MediMinder ব্যাকআপ ফাইল থেকে ফিরিয়ে আনুন</string>
+    <string name="settings_export_csv">ইতিহাস এক্সপোর্ট (CSV)</string>
+    <string name="settings_export_csv_desc">স্প্রেডশিটে আপনার ডোজের ইতিহাস খুলুন</string>
+    <string name="settings_delete_all">সব ডেটা মুছুন</string>
+    <string name="settings_delete_all_desc">সব ওষুধ ও সম্পূর্ণ ইতিহাস মুছে ফেলুন</string>
+    <string name="delete_all_confirm">এতে এই ডিভাইস থেকে সব ওষুধ ও ইতিহাস মুছে যাবে। আগে একটি ব্যাকআপ এক্সপোর্ট করে রাখতে পারেন।</string>
+    <string name="settings_about">সম্পর্কে</string>
+    <string name="settings_version">সংস্করণ %1$s</string>
+    <string name="disclaimer">MediMinder আপনাকে ওষুধ মনে রাখতে সাহায্য করে। এটি ডাক্তার বা ফার্মাসিস্টের পরামর্শের বিকল্প নয়। সব ডেটা আপনার ডিভাইসেই থাকে।</string>
+    <string name="import_title">ব্যাকআপ ইমপোর্ট</string>
+    <string name="import_text">এই ডিভাইসের সবকিছু ব্যাকআপ দিয়ে প্রতিস্থাপন করবেন, নাকি বর্তমান ডেটার সাথে যুক্ত করবেন?</string>
+    <string name="import_replace">প্রতিস্থাপন</string>
+    <string name="import_merge">যুক্ত করুন</string>
+    <string name="msg_exported">ব্যাকআপ সংরক্ষিত হয়েছে (%1$d টি ওষুধ)</string>
+    <string name="msg_imported">%1$d টি ওষুধ ইমপোর্ট হয়েছে</string>
+    <string name="msg_csv_exported">ইতিহাসের %1$d টি এন্ট্রি এক্সপোর্ট হয়েছে</string>
+    <string name="msg_failed">কিছু একটা সমস্যা হয়েছে। ফাইলটি দেখে আবার চেষ্টা করুন।</string>
+    <string name="msg_deleted">সব ডেটা মুছে ফেলা হয়েছে</string>
+
+    <!-- CSV -->
+    <string name="csv_date">তারিখ</string>
+    <string name="csv_time">সময়</string>
+    <string name="csv_medicine">ওষুধ</string>
+    <string name="csv_strength">শক্তি</string>
+    <string name="csv_dose">ডোজ</string>
+    <string name="csv_unit">একক</string>
+    <string name="csv_status">অবস্থা</string>
+    <string name="csv_action_time">লেখার সময়</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders">ওষুধের রিমাইন্ডার</string>
+    <string name="channel_reminders_desc">ওষুধ খাওয়ার কথা মনে করিয়ে দেয়</string>
+    <string name="channel_alarms">ওষুধের অ্যালার্ম</string>
+    <string name="channel_alarms_desc">গুরুত্বপূর্ণ ওষুধের জন্য জোরালো, পূর্ণ-স্ক্রিন অ্যালার্ম</string>
+    <string name="channel_refill">রিফিল রিমাইন্ডার</string>
+    <string name="channel_refill_desc">কোনো ওষুধ ফুরিয়ে এলে সতর্ক করে</string>
+    <string name="notif_dose_title">%1$s খাওয়ার সময় হয়েছে</string>
+    <string name="notif_refill_title">%1$s ফুরিয়ে আসছে</string>
+    <string name="notif_refill_text">মাত্র %1$s বাকি। আবার কেনার সময় হয়েছে।</string>
+    <string name="alarm_time_for_medicine">ওষুধ খাওয়ার সময় হয়েছে</string>
+
+    <!-- Plurals -->
+    <plurals name="unit_tablet"><item quantity="one">%1$s টি ট্যাবলেট</item><item quantity="other">%1$s টি ট্যাবলেট</item></plurals>
+    <plurals name="unit_capsule"><item quantity="one">%1$s টি ক্যাপসুল</item><item quantity="other">%1$s টি ক্যাপসুল</item></plurals>
+    <plurals name="unit_ml"><item quantity="one">%1$s মিলি</item><item quantity="other">%1$s মিলি</item></plurals>
+    <plurals name="unit_teaspoon"><item quantity="one">%1$s চা-চামচ</item><item quantity="other">%1$s চা-চামচ</item></plurals>
+    <plurals name="unit_tablespoon"><item quantity="one">%1$s টেবিল-চামচ</item><item quantity="other">%1$s টেবিল-চামচ</item></plurals>
+    <plurals name="unit_drop"><item quantity="one">%1$s ফোঁটা</item><item quantity="other">%1$s ফোঁটা</item></plurals>
+    <plurals name="unit_puff"><item quantity="one">%1$s পাফ</item><item quantity="other">%1$s পাফ</item></plurals>
+    <plurals name="unit_spray"><item quantity="one">%1$s বার স্প্রে</item><item quantity="other">%1$s বার স্প্রে</item></plurals>
+    <plurals name="unit_unit"><item quantity="one">%1$s ইউনিট</item><item quantity="other">%1$s ইউনিট</item></plurals>
+    <plurals name="unit_mg"><item quantity="one">%1$s মিগ্রা</item><item quantity="other">%1$s মিগ্রা</item></plurals>
+    <plurals name="unit_g"><item quantity="one">%1$s গ্রাম</item><item quantity="other">%1$s গ্রাম</item></plurals>
+    <plurals name="unit_mcg"><item quantity="one">%1$s মাইক্রোগ্রাম</item><item quantity="other">%1$s মাইক্রোগ্রাম</item></plurals>
+    <plurals name="unit_patch"><item quantity="one">%1$s টি প্যাচ</item><item quantity="other">%1$s টি প্যাচ</item></plurals>
+    <plurals name="unit_sachet"><item quantity="one">%1$s টি স্যাশে</item><item quantity="other">%1$s টি স্যাশে</item></plurals>
+    <plurals name="unit_application"><item quantity="one">%1$s বার লাগান</item><item quantity="other">%1$s বার লাগান</item></plurals>
+    <plurals name="unit_piece"><item quantity="one">%1$s টি</item><item quantity="other">%1$s টি</item></plurals>
+
+    <plurals name="freq_every_n_days"><item quantity="one">প্রতিদিন</item><item quantity="other">প্রতি %1$s দিন পরপর</item></plurals>
+    <plurals name="freq_every_n_hours"><item quantity="one">প্রতি ঘণ্টায়</item><item quantity="other">প্রতি %1$s ঘণ্টা পরপর</item></plurals>
+    <plurals name="hours_short"><item quantity="one">%1$s ঘণ্টা</item><item quantity="other">%1$s ঘণ্টা</item></plurals>
+    <plurals name="minutes"><item quantity="one">%1$s মিনিট</item><item quantity="other">%1$s মিনিট</item></plurals>
+    <plurals name="times_count"><item quantity="one">%1$s বার</item><item quantity="other">%1$s বার</item></plurals>
+    <plurals name="days_count"><item quantity="one">%1$s দিন</item><item quantity="other">%1$s দিন</item></plurals>
+    <plurals name="days_left"><item quantity="one">প্রায় %1$s দিন চলবে</item><item quantity="other">প্রায় %1$s দিন চলবে</item></plurals>
+    <plurals name="medicine_count"><item quantity="one">%1$s টি ওষুধ</item><item quantity="other">%1$s টি ওষুধ</item></plurals>
+</resources>
